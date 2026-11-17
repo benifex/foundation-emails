@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: foundation-emails
+  description: Framework of HTML/CSS components for building responsive emails that work in any email client.
+  tags:
+    - language:nodejs
+  annotations:
+    # TODO: no SonarQube project found for this repo - add sonarqube.org/project-key when one exists
+    github.com/project-slug: benifex/foundation-emails
+    wiz.io/repository-external-id: github.com##benifex/foundation-emails
+spec:
+  type: library
+  lifecycle: production
+  owner: group:benifex/unknown-ownership
